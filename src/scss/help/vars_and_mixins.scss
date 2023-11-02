@@ -1,0 +1,38 @@
+//Цвета
+$sunyellow: rgb(221, 82, 186);
+$sunflower: #ffca0f;
+$black: #282828;
+$greyishbrown: #505050;
+$browngrey: #b4b4b4;
+$verylightpink: #dcdcdc;
+$white: #ffffff;
+
+@mixin flex ($justify, $align, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+@mixin font ($weight, $size, $line-height, $letter-spacing, $color) {
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $line-height;
+  letter-spacing: $letter-spacing;
+  color: $color;
+}
+
+$maxWidth:1440;
+
+@mixin adaptiv-font($pcSize, $mobSize) {
+  font-size: $pcSize + px;
+  $addSize: $pcSize - $mobSize;
+  $addMobSize: $addSize + $addSize * 0.7;
+  @media (max-width: $maxWidth + px) {
+    font-size: calc(#{$mobSize + px} + #{$addSize} * (100vw / #{$maxWidth}));
+  }
+  @media (max-width: 767px) {
+    font-size: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 320px) / #{$maxWidth}));
+  }
+}
+
