@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.min.css">
-    <title>Gulp</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <title>page</title>
+    <link rel="dns-prefetch" href="//use.fontawesome.com" />
+    <link
+      rel="stylesheet"
+      id="font-awesome-css"
+      href="//use.fontawesome.com/releases/v5.5.0/css/all.css?ver=1.1.3.1698951419"
+      type="text/css"
+      media="all"
+    />
+  </head>
+  <body>
+    @@include('template/header.html')
     <main class="main">
-        <p class="img">
-            Hello
-        </p>
-
-        <img src="./img/img.jpg" alt="">
-        <!-- <picture>
-            <source srcset="./img/img.webp">
-            <img src="./img/img.jpg" alt="">
-        </picture> -->
+     @@include('template/content.html')
     </main>
+    @@include('template/footer.html')
     <script src="js/main.min.js"></script>
-</body>
+  </body>
 </html>

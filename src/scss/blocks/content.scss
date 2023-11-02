@@ -1,0 +1,21 @@
+// .site-inner {
+//     padding-top: 30px;
+// }
+
+// .site-inner, .wrap, .wrapslider {
+//     margin: 0 auto;
+//     max-width: 1280px;
+// }
+// .site-inner {
+//     position: relative;
+//     z-index: 1;
+// }
+
+.wrapper-content-page{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 16px;
+    text-align: justify;
+    min-height: calc(100vh - 355px);
+}

@@ -4,6 +4,8 @@
   "description": "Gulp for WordPress",
   "main": "index.html",
   "scripts": {
+    "watch": "gulp watch",
+    "build": "gulp build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Denis Pukhovich",
