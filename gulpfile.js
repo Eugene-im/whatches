@@ -92,7 +92,7 @@ function html() {
             collapseWhitespace: true,
             removeComments:true 
         }))
-        .pipe(webphtml())
+        // .pipe(webphtml())
         .pipe(dest(path.build.html))
         .pipe(browsersync.stream())
 }
