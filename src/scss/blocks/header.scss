@@ -177,7 +177,6 @@
 //     flex: 0 1 100%;
 // }
 
-
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
   line-height: 1.15;
@@ -1987,4 +1986,23 @@ form[name="cdir_home_signup"] .step-3,
 form[name="register"] .step-2,
 form[name="register"] .step-3 {
   display: none;
+}
+
+.cdir-sidebar-content-side .site-inner > .wrap {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  flex-wrap: nowrap;
+}
+
+.primarycat .content .postset-headline, .primarycat .content .postset-hero {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0;
+}
+.primarycat .content .entry {
+  background-color: #fff;
+  margin-bottom: 25px;
+  padding: 20px;
 }

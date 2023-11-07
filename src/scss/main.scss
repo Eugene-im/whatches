@@ -1,22 +1,22 @@
-@import "./help/vars_and_mixins.scss";
-@import "./help/media_mixins.scss";
+// @import "./help/vars_and_mixins.scss";
+// @import "./help/media_mixins.scss";
 
-html {
-    overflow-x: hidden;
-    &.overflowHidden {
-        overflow: hidden;
-    }
-}
-body {
-    padding-right: 0 !important;
-    overflow-x: hidden;
-    background-color: #f6f6f6;
-}
-#primary.content-area {
-    box-sizing: border-box;
-}
-figure {
-    img {
-        width: 100%;
-    }
-}
+// html {
+//     overflow-x: hidden;
+//     &.overflowHidden {
+//         overflow: hidden;
+//     }
+// }
+// body {
+//     padding-right: 0 !important;
+//     overflow-x: hidden;
+//     background-color: #f6f6f6;
+// }
+// #primary.content-area {
+//     box-sizing: border-box;
+// }
+// figure {
+//     img {
+//         width: 100%;
+//     }
+// }
