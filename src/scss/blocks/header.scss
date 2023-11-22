@@ -2561,6 +2561,12 @@ form[name="register"] .step-3 {
   flex: 0 0 100%;
 }
 
+.woocommerce.woocommerce-page.full-width-content .content, 
+.woocommerce.woocommerce.full-width-content .content{
+  max-width: 1080px;
+}
+
+
 .cdir-wooarchive .content ul.products li.entry:not(:nth-child(3n+0)), .content ul.products li.entry:not(:nth-child(3n+0)) {
   margin-right: 1.5%!important;
 }
